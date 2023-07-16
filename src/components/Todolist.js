@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 
 function Todolist(props) {
-  console.log(props);
+  //console.log(props);
   return (
     <div className="border-view">
       <h2>Add Todo</h2>
