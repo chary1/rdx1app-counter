@@ -6,6 +6,7 @@ function Todolist(props) {
   return (
     <div className="border-view">
       <h2>Add Todo</h2>
+      <h3>input onKeyUp</h3>
       <input
         type="text"
         onKeyUp={(e) =>
