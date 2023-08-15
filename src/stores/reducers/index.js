@@ -5,7 +5,7 @@ import todolistArrayReducter from "./todolist.array.reducter";
 import todoListObjectReducer from "./todolist.object.reducer";
 
 const reducer = combineReducers({
-  count: counterReducer,
+  counter: counterReducer,
   todos: todoListReducer,
   todosArray: todolistArrayReducter,
   todosObj: todoListObjectReducer,
